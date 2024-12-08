@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>products</title>
+</head>
+<body>
+    <script>
+        function Product(name, price) {
+            this.name = name;
+            this.price = price;
+            this.Discount = function (percentage) {
+                return this.price - (this.price * (percentage / 100));
+            };
+        };
+ const wiredheadphone = new Product("boat w1", 1000);
+ const bluetooth = new Product("boat b1", 500);
+
+ console.log(wiredheadphone.name);
+ console.log(bluetooth.price);
+ console.log(wiredheadphone.Discount(10));
+ console.log(bluetooth.Discount(20));
+
+    </script>
+</body>
+</html>
