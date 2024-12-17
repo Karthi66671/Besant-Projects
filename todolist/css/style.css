@@ -1,0 +1,46 @@
+body{
+    background-color: #AEF3E7;
+    margin: 0;
+}
+
+.container{
+    width: 80%;
+    margin: 30px auto;
+    border: 1px solid gray;
+    padding: 15px;
+}
+
+.input-section{
+    display: flex;
+}
+
+.input-section input{
+    flex: 1;
+    padding: 5px;
+}
+
+.input-section button{
+    padding: 5px;
+    background-color: #C1DDD9;
+    border: 1px solid grey;
+}
+
+.list-section ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.list-section ul li{
+    border: 1px solid grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-section ul li .close{
+    background-color: #C1DDD9;
+    color: white;
+    padding: 10px;
+}
